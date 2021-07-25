@@ -1,0 +1,1 @@
+module.exports = /* eslint-disable */ ["An error occurred while attempting to generate metadata for HelloWorld. Error: ENOENT: no such file or directory, open '/Users/linuss/Dev/projects/training/react-component-library/src/components/HelloWorld/HelloWorld.js'"]
