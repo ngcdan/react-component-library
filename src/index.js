@@ -4,12 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Docs from './docs/Docs';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Docs />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<Docs />, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
