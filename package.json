@@ -1,7 +1,23 @@
 {
   "name": "react-component-library",
   "version": "0.1.0",
-  "private": true,
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "author": {
+    "name": "Ngc Dan",
+    "email": "Linuss1908@gmail.com"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "components",
+    "react",
+    "react-component",
+    "toolkit"
+  ],
   "dependencies": {
     "@babel/cli": "7.13.0",
     "@babel/core": "7.12.3",
@@ -74,6 +90,12 @@
     "webpack-dev-server": "3.11.1",
     "webpack-manifest-plugin": "2.2.0",
     "workbox-webpack-plugin": "5.1.4"
+  },
+  "devDependencies": {
+    "chokidar": "^3.5.2",
+    "gh-pages": "^0.12.0",
+    "npm-run-all": "^4.1.5",
+    "react-docgen": "^5.4.0"
   },
   "homepage": "http://ngcdan.github.io/react-component-library/",
   "scripts": {
@@ -171,11 +193,5 @@
       ],
       "react-app"
     ]
-  },
-  "devDependencies": {
-    "chokidar": "^3.5.2",
-    "gh-pages": "^0.12.0",
-    "npm-run-all": "^4.1.5",
-    "react-docgen": "^5.4.0"
   }
 }
