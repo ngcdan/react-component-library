@@ -1,13 +1,14 @@
 {
-  "name": "react-component-library",
-  "version": "0.1.0",
+  "name": "reactjs-lib",
+  "version": "0.1.2",
   "main": "./lib/index.js",
   "engines": {
     "node": ">=4.0.0"
   },
   "author": {
-    "name": "Ngc Dan",
-    "email": "Linuss1908@gmail.com"
+    "name": "Nqc Dan",
+    "email": "Linuss1908@gmail.com",
+    "url": "https://github.com/ngcdan"
   },
   "files": [
     "lib"

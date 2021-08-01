@@ -2,7 +2,8 @@
 
 ## Install
 ```
-npm install react-component-library
+npm i reactjs-lib
+
 ```
 
 ## Docs
