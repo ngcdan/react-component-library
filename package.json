@@ -10,6 +10,15 @@
     "email": "Linuss1908@gmail.com",
     "url": "https://github.com/ngcdan"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngcdan/reactjs-lib.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngcdan/react-webpack/issues"
+  },
+  "homepage": "http://ngcdan.github.io/reactjs-lib/",
   "files": [
     "lib"
   ],
@@ -98,7 +107,6 @@
     "webpack-manifest-plugin": "2.2.0",
     "workbox-webpack-plugin": "5.1.4"
   },
-  "homepage": "http://ngcdan.github.io/reactjs-lib/",
   "scripts": {
     "prestart": "npm run gen:docs",
     "start": "npm-run-all --parallel start:docs gen:docs-watch",
