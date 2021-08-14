@@ -1,5 +1,5 @@
 import React from 'react';
-import HelloWorld from 'r-components/HelloWorld';
+import HelloWorld from 'reactjs-lib/HelloWorld';
 
 /** Custom message */
 export default function ExampleHelloWorld() {

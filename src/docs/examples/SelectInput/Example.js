@@ -1,5 +1,5 @@
 import React from 'react';
-import SelectInput from 'r-components/SelectInput';
+import SelectInput from 'reactjs-lib/SelectInput';
 
 export default class Example extends React.Component {
   constructor(props) {

@@ -1,5 +1,5 @@
 import React from 'react';
-import EyeIcon from 'r-components/EyeIcon';
+import EyeIcon from 'reactjs-lib/EyeIcon';
 
 export default function EyeIconExample() {
   return <EyeIcon />;

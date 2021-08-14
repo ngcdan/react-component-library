@@ -1,5 +1,5 @@
 import React from 'react';
-import Label from 'r-components/Label';
+import Label from 'reactjs-lib/Label';
 
 /** Required label */
 export default function ExampleRequired() {

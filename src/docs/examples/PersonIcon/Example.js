@@ -1,5 +1,5 @@
 import React from 'react';
-import PersonIcon from 'r-components/PersonIcon';
+import PersonIcon from 'reactjs-lib/PersonIcon';
 
 export default function PersonIconExample() {
   return <PersonIcon />;
