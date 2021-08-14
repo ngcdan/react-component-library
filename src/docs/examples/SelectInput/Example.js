@@ -9,7 +9,7 @@ export default class Example extends React.Component {
       user: {
         selectField: ''
       },
-      error: 'Not empty',
+      error: 'Select Field is required!',
     };
   }
 

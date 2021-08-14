@@ -3,15 +3,23 @@ import PropTypes from 'prop-types';
 import Label from '../Label';
 
 /** Text input with integrated label to enforce consistency in layout, error display, label placement, and required field marker. */
-function TextInput({
-  htmlId, name, label, type = "text", required = false, onChange, placeholder, value, error, children, ...props }) {
+const TextInput = ({
+  htmlId, name, label, type = "text", required = false,
+  onChange, placeholder, value, error, children, ...props }) => {
+
+  let wrapperClass = "form-group";
+  if (error && error.length > 0) {
+    wrapperClass.concat(" has-error");
+  }
+
   return (
-    <div style={{ marginBottom: 16 }}>
-      <Label htmlFor={htmlId} label={label} required={required} />
+    <div className={wrapperClass}>
+      <Label htmlFor={htmlId ? htmlId : name} label={label} required={required} />
       <input
         id={htmlId}
         type={type}
         name={name}
+        className="form-control"
         placeholder={placeholder}
         value={value}
         onChange={onChange}
@@ -25,7 +33,7 @@ function TextInput({
 
 TextInput.propTypes = {
   /** Unique HTML ID. Used for tying label to HTML input. Handy hook for automated testing. */
-  htmlId: PropTypes.string.isRequired,
+  htmlId: PropTypes.string,
 
   /** Input name. Recommend setting this to match object's property so a single change handler can be used. */
   name: PropTypes.string.isRequired,
