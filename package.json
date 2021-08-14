@@ -1,6 +1,6 @@
 {
   "name": "reactjs-lib",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "main": "./lib/index.js",
   "engines": {
     "node": ">=4.0.0"
