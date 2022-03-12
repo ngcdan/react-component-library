@@ -1,5 +1,3 @@
-# react-lib
-
 ### Getting started
  - Install `reactjs-lib` using npm.
 ```shell
