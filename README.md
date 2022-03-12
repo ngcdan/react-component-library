@@ -1,15 +1,13 @@
-# Reactjs Lib
+# react-lib
 
-## Getting started
-
-Install `reactjs-lib` using npm.
-
+### Getting started
+ - Install `reactjs-lib` using npm.
 ```shell
 npm i reactjs-lib
 
 ```
 
-## Examples
+### Examples
 
 Examples for each component can be seen in [the documentation](http://ngcdan.github.io/reactjs-lib).
 
@@ -21,7 +19,4 @@ Here are some online demos of each component:
 - [PasswordInput](http://ngcdan.github.io/reactjs-lib/#PasswordInput)
 - [PersonIcon](http://ngcdan.github.io/reactjs-lib/#PersonIcon)
 
-## License
-
-[MIT License](http://opensource.org/licenses/MIT)
 
